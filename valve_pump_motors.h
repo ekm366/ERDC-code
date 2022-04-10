@@ -26,6 +26,10 @@ void get_water();
 void test_blank();
 void waste_blank();
 void test_water();
+void attach_motors();
+void pullup_switch();
+
+bool recieve_boat_mode(int val);
 
 };
 #endif
